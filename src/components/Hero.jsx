@@ -25,16 +25,17 @@ function Hero() {
 
         <h2 className="typing-text">
           <TypeAnimation
+            
             sequence={[
-              "Computer Engineering Student",
-              2000,
-              "MERN Stack Developer",
-              2000,
-              "Backend Developer",
-              2000,
-              "React Learner",
-              2000,
-            ]}
+  "Full Stack MERN Developer",
+  2000,
+  "React Developer",
+  2000,
+  "Node.js & Express Developer",
+  2000,
+  "Problem Solver",
+  2000,
+]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
@@ -42,25 +43,27 @@ function Hero() {
         </h2>
 
         <p>
-          Passionate MERN Stack Developer and React Learner dedicated to
-          building modern, responsive, and user-friendly web applications.
-          I enjoy solving real-world problems through clean and efficient code.
+          I am a Computer Engineering student passionate about full-stack web development. I build responsive and scalable applications using React, Node.js, Express.js, and MongoDB, with a focus on clean code and great user experience.
         </p>
 
         <div className="buttons">
 
           <a href="/resume.pdf" download>
             <button className="resumeBtn">
-              📄 Download Resume
+📄 Download Resume
             </button>
           </a>
 
-          <a href="#contact">
-            <button className="contactBtn">
-              📩 Contact Me
-            </button>
-          </a>
-
+         <a href="#projects">
+  <button className="contactBtn">
+    💻 View Projects
+  </button>
+</a>
+<a href="https://github.com/Nishayadav21" target="_blank" rel="noreferrer">
+  <button className="githubBtn">
+    ⭐ GitHub
+  </button>
+</a>
         </div>
       </motion.div>
 

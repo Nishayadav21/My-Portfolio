@@ -21,19 +21,11 @@ function Projects() {
           <span>Flutter • Node.js • MongoDB</span>
 
           <div className="project-buttons">
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="#" target="_blank" rel="noreferrer">
               <FaGithub /> GitHub
             </a>
 
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="#" target="_blank" rel="noreferrer">
               <FaExternalLinkAlt /> Live Demo
             </a>
           </div>
@@ -44,29 +36,32 @@ function Projects() {
           <h3>💼 SkillNova Internship Platform</h3>
 
           <p>
-            A MERN Stack internship platform where students can apply for
-            internships and companies can manage applications.
+            A full-stack MERN internship platform where students can search and
+            apply for internships while recruiters can manage job postings and
+            applications through an admin dashboard.
           </p>
 
           <span>React • Node.js • Express • MongoDB</span>
 
           <div className="project-buttons">
             <a
-              href="#"
+              href="https://github.com/Nishayadav21/SkillNova-Backend"
               target="_blank"
               rel="noreferrer"
             >
               <FaGithub /> GitHub
             </a>
-
-            <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaExternalLinkAlt /> Live Demo
-            </a>
           </div>
+
+          <p
+            style={{
+              marginTop: "15px",
+              color: "#7c3aed",
+              fontWeight: "600",
+            }}
+          >
+            🚧 Currently Under Development
+          </p>
         </div>
 
         {/* Project 3 */}
@@ -74,15 +69,16 @@ function Projects() {
           <h3>🌐 Personal Portfolio Website</h3>
 
           <p>
-            A responsive React portfolio website showcasing my skills,
-            education, projects, and contact information.
+            Designed and developed a modern responsive portfolio using React
+            and CSS to showcase my projects, technical skills, education, and
+            resume.
           </p>
 
-          <span>React • CSS</span>
+          <span>React • CSS • Vite</span>
 
           <div className="project-buttons">
             <a
-              href="#"
+              href="https://github.com/Nishayadav21/My-Portfolio"
               target="_blank"
               rel="noreferrer"
             >
@@ -90,7 +86,7 @@ function Projects() {
             </a>
 
             <a
-              href="https://github.com/Nishayadav21/SkillNova-Backend"
+              href="https://my-portfolio-git-main-nishayadav21s-projects.vercel.app"
               target="_blank"
               rel="noreferrer"
             >
