@@ -34,8 +34,8 @@ function Contact() {
         <div className="contact-info">
           <h3>Let's Connect</h3>
 
-          <p>📧 your-email@gmail.com</p>
-          <p>📱 +977 XXXXXXXX</p>
+          <p>📧 yadavnisha1289@gmail.com</p>
+          <p>📱 +977 9820345144</p>
           <p>📍 Nepal</p>
         </div>
 
